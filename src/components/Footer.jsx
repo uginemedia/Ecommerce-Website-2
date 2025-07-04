@@ -66,7 +66,7 @@ const Footer = () => {
                 placeholder="enter your email address"
                 className="px-4 py-2 flex-1 border border-gray-700 bg-black text-white placeholder-gray-500"
               />
-              <button className="bg-white text-black font-semibold px-4">SUBMIT</button>
+              <button className="bg-white text-black font-semibold px-4 cursor-pointer">SUBMIT</button>
             </div>
             <div className="flex space-x-4 mt-4">
               <FaFacebookF className="bg-white text-black rounded-full p-2 w-8 h-8 cursor-pointer" />

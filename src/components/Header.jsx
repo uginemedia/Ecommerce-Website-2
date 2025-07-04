@@ -120,7 +120,7 @@ return (
                             type="text"
                             placeholder="Search..."
                             className="px-3 py-1 rounded-md text-black border border-gray-300 focus:outline-none focus:ring-1 focus:ring-indigo-700" />
-                        <button className="px-6 py-3 bg-indigo-700 cursor-pointer rounded-full text-white font-semibold hover:bg-indigo-800 transition">Create an Account</button>
+                        <button className="px-6 py-3 bg-indigo-700 cursor-pointer rounded-full text-white font-semibold hover:bg-indigo-800 transition duration-300">Create an Account</button>
                     </div>
                 </div>
             </nav>
@@ -132,7 +132,7 @@ return (
                 placeholder="Search..."
                 className="px-3 py-1 rounded-md text-black border border-gray-300 focus:outline-none focus:ring-1 focus:ring-indigo-700" />
             <span className="text-xl cursor-pointer" onClick={() => setIsCartOpen(true)}><IoCartOutline className='text-gray-900 hover:text-indigo-700 text-2xl' /></span>
-            <button className="px-6 py-3 bg-indigo-700 cursor-pointer rounded-full text-white font-semibold hover:bg-indigo-800 transition">Create an Account</button>
+            <button className="px-6 py-3 bg-indigo-700 cursor-pointer rounded-full text-white font-semibold hover:bg-indigo-800 transition duration-300">Create an Account</button>
         </div>
     </header>
     <ShoppingCart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
